@@ -1,1 +1,16 @@
 # install CLI extension for ML
+# az extension add -n azure-cli-ml
+
+# check if it is installed with these two commands
+
+az --help
+
+az ml -h
+
+# Need to update the extension
+az extension update -n azure-cli-ml
+
+az login
+
+az ml workspace list
+
